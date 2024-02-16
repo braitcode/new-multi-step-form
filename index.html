@@ -75,22 +75,31 @@
       <form action="">
         
         <div class="col">
-          <label for="">Name</label>
-          <input class="form-control p-2" type="text" placeholder="e.g. Stephen King">
+          <div class=" d-flex justify-content-between">
+            <label for="">Name</label> 
+          <span class="error" id="nameError"></span>
+          </div>
+          <input class="form-control  p-2" type="text" placeholder="e.g. Stephen King" id="nameInput">
         </div>
         <div class="col my-4">
-          <label for="">Email Address</label>
-          <input class="form-control p-2" type="email" placeholder="e.g. stephenking@lorem.com">
+          <div class=" d-flex justify-content-between">
+            <label for="">Email Address</label>
+            <span class="error" id="emailError"></span>
+          </div>
+          <input class="form-control p-2" type="email" placeholder="e.g. stephenking@lorem.com" id="emailInput">
         </div>
         <div class="col">
-          <label for="">Phone Number</label>
-          <input class="form-control p-2" type="text" placeholder="e.g. +1 234 567 890">
+          <div class="d-flex justify-content-between">
+            <label for="">Phone Number</label>
+            <span class="error" id="phoneError"></span>
+          </div>
+          
+          <input class="form-control p-2" type="text" placeholder="e.g. +1 234 567 890" id="phoneInput">
         </div>
       </form>
       <div class="btn-container d-none d-md-flex justify-content-between">
-        <div class=""></div>
-        <!-- <a class="btn btn-lg mb-3" href="./step2.html">Next Step</a> -->
-        <a class="btn btn-lg mb-3" href="./step2.html">Next Step</a>
+       <div class=""></div> 
+        <a class="btn btn-lg mb-3" href="./step2.html" id="nextBtn">Next Step</a>
       </div>
     </section>
   </div>
@@ -98,12 +107,14 @@
 
   <div class="next-btn py-3 d-md-none d-flex justify-content-between">
     <a class="btn btn-lg mb-3 d-none" href="./step2.html">Next Step</a>
-    <a class="btn btn-lg mb-3" href="./step2.html">Next Step</a>
+    <a class="btn btn-lg mb-3" href="./step2.html" id="nextBtn2">Next Step</a>
   </div>
 
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+  <script src="./js/index.js"></script>
+  <!-- <script src="./js/step2.js"></script> -->
 </body>
 </html>

@@ -62,10 +62,10 @@ main {
   background-color: var(--Lightblue);
   color: var(--Marineblue);
 }
-.nav-btn :nth-child(1):hover {
+/* .nav-btn :nth-child(1):hover {
   background-color: var(--Lightblue);
   color: var(--Marineblue);
-}
+} */
 
 section {
   width: 200px;

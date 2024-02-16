@@ -271,7 +271,7 @@ p {
     /* align-items: flex-start; */
   }
   .box-content h2{
-    margin-left: -6rem;
+    /* margin-left: rem; */
   }
 .main-section{
   display: flex;

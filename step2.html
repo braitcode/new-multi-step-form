@@ -87,8 +87,10 @@
             <img src="./assets/images/icon-arcade.svg" alt="">
           </div>
           <div class="box-content ms-4 ms-md-0">
-            <h4>Arcade</h4>
-            <p>$9/mo</p>
+            <a href="./step4.html"><h4>Arcade</h4></a>
+            <p id="arcadePrice">$9/mo</p>
+            <p class="" id="arcade">2 months free</p>
+            <!-- <span>2 months free</span> -->
           </div>
         </div>
         <div class="box col-12 col-md-3">
@@ -97,7 +99,9 @@
           </div>
           <div class="box-content ms-4 ms-md-0">
             <h4>Advanced</h4>
-            <p>$12/mo</p>
+            <p id="advancePrice">$12/mo</p>
+            <p class="" id="advance">2 months free</p>
+            <!-- <span>2 months free</span> -->
           </div>
         </div>
         <div class="box col-12 col-md-3">
@@ -106,7 +110,8 @@
           </div>
           <div class="box-content ms-4 ms-md-0">
             <h4>Pro</h4>
-            <p>$15/mo</p>
+            <p id="proPrice">$15/mo</p>
+            <p class="" id="pro">2 months free</p>
           </div>
         </div>
         <div class="nav-but col-12">
@@ -117,23 +122,26 @@
             <label class="form-check-label" for="flexSwitchCheckChecked"></label>
           </div>
 
-          <span style="color: grey;">Yearly</span>
+          <span style="color: grey; ">Yearly</span>
+          <!-- <span style="color: grey;"><a href="./step2a.html">Yearly</a></span> -->
+          
 
         </div>
       </div>
 
 
       <div class="btn-container d-none d-md-flex">
-        <a class="btn btn-lg mb-3" href="./index.html">Go Back</a>
-        <a class="btn btn-lg mb-3" href="./step2a.html">Next Step</a>
+        <a class="btn btn-lg mb-3" href="./index.html" id="goBack1">Go Back</a>
+        <a class="btn btn-lg mb-3" href="./step3.html">Next Step</a>
       </div>
+      <!-- <h5>Yearly</h5> -->
     </section>
   </div>
 
   <!-- md, lg -->
   <div class="next-btn container py-3 d-md-none d-flex justify-content-between">
-    <a class=" btn btn-lg mb-3" href="./index.html">Go Back</a>
-    <a class="btn btn-lg mb-3" href="./step2a.html">Next Step</a>
+    <a class=" btn btn-lg mb-3" href="./index.html" id="goBack2">Go Back</a>
+    <a class="btn btn-lg mb-3" href="./step3.html">Next Step</a>
   </div>
 
   <!-- <div class="attribution">
@@ -142,7 +150,8 @@
   </div> -->
   </div>
 
-
+<script src="./js/step2.js"></script>
+<script src="./js/index.js"></script>
 </body>
 
 </html>

@@ -52,10 +52,10 @@ main {
   color: var(--Marineblue);
 }
 
-.nav-btn :nth-child(1):hover {
+/* .nav-btn :nth-child(1):hover {
   background-color: var(--Lightblue);
   color: var(--Marineblue);
-}
+} */
 
 section {
   width: 200px;
@@ -66,6 +66,20 @@ section {
   border-radius: 10px;
 }
 
+.error{
+  /* background-color: crimson; */
+  color: var(--Strawberryred);
+}
+
+.input-error{
+  border: 2px solid var(--Strawberryred);
+}
+
+.label{
+  display: flex;
+  justify-content:space-between;
+}
+
 .form-control{
   margin-top: 1rem;
 }
@@ -73,6 +87,7 @@ section {
 .form-control:focus {
   box-shadow: none;
   border: 1px solid var(--Marineblue);
+  outline: none;
   outline: none;
 }
 .top h4,
@@ -112,7 +127,7 @@ p {
   color: var(--Lightblue);
   opacity: .9;
 }
-/* madia query */
+/* media query */
 
 @media (min-width: 768px) and (max-width: 900px){
   section{
